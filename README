@@ -1,0 +1,7 @@
+
+En terminal:
+python3 agenda.py add --titulo "Tarea1" --fecha 2025-09-08 --prioridad 1 --etiquetas trabajo --descripcion "Hacer el proyecto"
+
+python3 agenda.py ls 
+
+python3 agenda.py find "Tarea1"
