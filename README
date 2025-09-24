@@ -1,7 +1,18 @@
 
 En terminal:
-python3 agenda.py add --titulo "Tarea1" --fecha 2025-09-08 --prioridad 1 --etiquetas trabajo --descripcion "Hacer el proyecto"
+python3 agenda.py add --titulo "Tarea1" --fecha 2025-09-23 --prioridad 5 --etiquetas trabajo --descripcion "Terminar el proyecto 1"
 
-python3 agenda.py ls 
+python3 agenda.py ls
+
+python3 agenda.py save tareas
+
 
 python3 agenda.py find "Tarea1"
+
+python3 agenda.py load tareas.json
+
+python3 agenda.py view tareas.json
+
+python3 agenda.py done T-0001
+
+python3 agenda.py rm T-0001
